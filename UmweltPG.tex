@@ -1,0 +1,96 @@
+% Beamer als Dokumentenklasse verwenden
+\documentclass[aspectratio=169]{beamer}
+
+% Kodierung dieser Datei angeben
+\usepackage[utf8]{inputenc}
+
+% Schönere Schriftart laden
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+% Schönere Schriftart für nicht proportionale Schrift laden
+\usepackage{courier}
+
+% Deutsche Silbentrennung verwenden
+\usepackage[ngerman]{babel}
+
+% Paket für Darstellung von Quelltext laden
+\usepackage{listings}
+
+% Farbunterstützung muss in Beamer nicht explizit geladen werden
+
+% Paket für weitere Symbole laden.
+% (Wird von listings benötigt.)
+\usepackage{textcomp}
+
+% Optionen für das Aussehen des Quelltext setzen
+\lstset{%
+  basicstyle=\ttfamily,%
+  showstringspaces=false,%
+  upquote=true}
+
+% Deutsche Umlaute in UTF8 aktivieren
+\lstset{
+  literate={ö}{{\"o}}1
+           {Ö}{{\"O}}1
+           {ä}{{\"a}}1
+           {Ä}{{\"A}}1
+           {ü}{{\"u}}1
+           {Ü}{{\"U}}1
+           {ß}{{\ss}}1
+}
+
+% Stil für das Setzen von Pseudocode definieren
+\lstdefinestyle{pseudo}{language={},%
+  basicstyle=\normalfont,%
+  morecomment=[l]{//},%
+  morekeywords={for,to,while,do,if,then,else},%
+  mathescape=true,%
+  columns=fullflexible}
+
+% Formeln mit Serifen setzen
+\usefonttheme[onlymath]{serif}
+
+% Navigationssynbole ausblenden
+\setbeamertemplate{navigation symbols}{}
+
+% Kurztitel und Title der Präsentation
+\title[Umwelt PG]{%
+  Umsetzung eines "Umweltwissenssystems" durch den Einsatz von semantischen Technologien}
+
+% Untertitel der Präsentation
+\subtitle{}
+
+% Kurz- und Langversion der Autoren
+\author[David Schlosser, Manuel Spies]{%
+  David Schlosser, Manuel Spies}
+
+% Kurz- und Langversion der Konferenz bzw. der Veranstaltung
+\date[Lehrstuhl für Wissensbasierte Systeme, SS 2016]{Lehrstuhl für Wissensbasierte Systeme, SS 2016}
+
+% Theme setzen
+% \usetheme{Boadilla} % Viel Information auf kleinem Platz.
+% \usetheme{Madrid} % Wie Boadilla, aber mit kräftigeren Farben.
+% \usetheme{Rochester} % Sehr dominante, aber ohne Layoutelemente.
+% \usetheme{Montpellier} % Zurückhaltend mit Baumnavigation.
+\usetheme{Goettingen} % Zurückhaltend mit Navigation in Seitenleiste rechts.
+% \usetheme{Frankfurt} % Navigationsleiste für die einzelnen Folien am oberen Rand.
+% \usetheme{Luebeck} % Abschnitt und Unterabschnitt in der Kopfzeile.
+
+\begin{document}
+
+
+\begin{frame}
+  \maketitle
+\end{frame}
+
+\section{Einleitung}
+
+\begin{frame}{Einleitung}
+  \begin{itemize}
+    \item ...
+  \end{itemize}
+\end{frame}
+
+
+\end{document}
