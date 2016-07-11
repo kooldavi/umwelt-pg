@@ -29,13 +29,17 @@
 \headcommand {\beamer@framepages {8}{8}}
 \headcommand {\slideentry {3}{3}{2}{9/9}{OrientDB}{0}}
 \headcommand {\beamer@framepages {9}{9}}
-\headcommand {\sectionentry {4}{Fazit}{10}{Fazit}{0}}
-\headcommand {\beamer@sectionpages {4}{9}}
-\headcommand {\beamer@subsectionpages {8}{9}}
-\headcommand {\slideentry {4}{0}{3}{10/10}{}{0}}
+\headcommand {\slideentry {3}{3}{3}{10/10}{OrientDB}{0}}
 \headcommand {\beamer@framepages {10}{10}}
-\headcommand {\beamer@partpages {1}{10}}
-\headcommand {\beamer@subsectionpages {10}{10}}
-\headcommand {\beamer@sectionpages {10}{10}}
-\headcommand {\beamer@documentpages {10}}
-\headcommand {\def \inserttotalframenumber {10}}
+\headcommand {\slideentry {3}{3}{4}{11/11}{OrientDB}{0}}
+\headcommand {\beamer@framepages {11}{11}}
+\headcommand {\sectionentry {4}{Fazit}{12}{Fazit}{0}}
+\headcommand {\beamer@sectionpages {4}{11}}
+\headcommand {\beamer@subsectionpages {8}{11}}
+\headcommand {\slideentry {4}{0}{5}{12/12}{}{0}}
+\headcommand {\beamer@framepages {12}{12}}
+\headcommand {\beamer@partpages {1}{12}}
+\headcommand {\beamer@subsectionpages {12}{12}}
+\headcommand {\beamer@sectionpages {12}{12}}
+\headcommand {\beamer@documentpages {12}}
+\headcommand {\def \inserttotalframenumber {12}}
